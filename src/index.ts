@@ -160,6 +160,7 @@ export type {
   GetMoreOptions,
   ConnectionEvents
 } from './cmap/connection';
+export type { Metrics } from './cmap/metrics';
 export type {
   CloseOptions,
   ConnectionPoolOptions,
