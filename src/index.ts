@@ -376,6 +376,7 @@ export type {
   FilterOperators,
   BSONTypeAlias,
   BitwiseFilter,
-  RegExpOrString
+  RegExpOrString,
+  OneOrMore
 } from './mongo_types';
 export type { serialize, deserialize } from './bson';
