@@ -1,5 +1,5 @@
 // Core module
-var core = require('mongodb-core'),
+var core = require('@progresskinvey/mongodb-core'),
   Instrumentation = require('./lib/apm');
 
 // Set up the connect function
@@ -23,8 +23,8 @@ connect.Logger = core.Logger;
 connect.Cursor = require('./lib/cursor');
 connect.GridFSBucket = require('./lib/gridfs-stream');
 // Exported to be used in tests not to be used anywhere else
-connect.CoreServer = require('mongodb-core').Server;
-connect.CoreConnection = require('mongodb-core').Connection;
+connect.CoreServer = require('@progresskinvey/mongodb-core').Server;
+connect.CoreConnection = require('@progresskinvey/mongodb-core').Connection;
 
 // BSON types exported
 connect.Binary = core.BSON.Binary;

@@ -1,4 +1,4 @@
-var core = require('mongodb-core');
+var core = require('@progresskinvey/mongodb-core');
 var crypto = require('crypto');
 var ejson = require('mongodb-extended-json');
 var fs = require('fs');

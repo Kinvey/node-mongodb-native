@@ -1190,7 +1190,7 @@ exports['Should return single server direct connection when replicaSet not provi
 }
 
 var waitForPrimary = function(count, config, options, callback) {
-  var ReplSet = require('mongodb-core').ReplSet;
+  var ReplSet = require('@progresskinvey/mongodb-core').ReplSet;
   if(count == 0) return callback(new Error("could not connect"));
   // Attempt to connect
   var server = new ReplSet(config, options);

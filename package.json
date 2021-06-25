@@ -1,6 +1,6 @@
 {
   "name": "@progresskinvey/mongodb",
-  "version": "2.2.36",
+  "version": "2.2.36-kinvey-v1",
   "description": "The official MongoDB driver for Node.js",
   "main": "index.js",
   "repository": {

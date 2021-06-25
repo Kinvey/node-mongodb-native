@@ -1,6 +1,6 @@
 "use strict";
 
-var BSON = require('mongodb-core').BSON;
+var BSON = require('@progresskinvey/mongodb-core').BSON;
 var bson = new BSON([BSON.Binary, BSON.Code, BSON.DBRef, BSON.Decimal128,
 	BSON.Double, BSON.Int32, BSON.Long, BSON.Map, BSON.MaxKey, BSON.MinKey,
 	BSON.ObjectId, BSON.BSONRegExp, BSON.Symbol, BSON.Timestamp]);
