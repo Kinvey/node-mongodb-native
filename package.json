@@ -1,5 +1,5 @@
 {
-  "name": "mongodb",
+  "name": "@progresskinvey/mongodb",
   "version": "2.2.36",
   "description": "The official MongoDB driver for Node.js",
   "main": "index.js",
