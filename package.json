@@ -13,9 +13,9 @@
     "official"
   ],
   "dependencies": {
-    "es6-promise": "3.2.1",
-    "mongodb-core": "2.1.20",
-    "readable-stream": "2.2.7"
+    "@progresskinvey/mongodb-core": "2.1.20",
+    "es6-promise": "3.3.1",
+    "readable-stream": "2.3.6"
   },
   "devDependencies": {
     "JSONStream": "^1.0.7",
@@ -52,6 +52,7 @@
   },
   "scripts": {
     "test": "node test/runner.js -t functional",
+    "test-npm-security": "npm audit --production --audit-level=high",
     "coverage": "node_modules/.bin/nyc node test/runner.js -t functional && node_modules/.bin/nyc report --reporter=text-lcov | node_modules/.bin/coveralls",
     "lint": "eslint lib",
     "changelog": "conventional-changelog -p angular -i HISTORY.md -s"
